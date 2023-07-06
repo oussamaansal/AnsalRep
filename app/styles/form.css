@@ -1,0 +1,37 @@
+@keyframes slide-left {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }}
+  .input-group{
+    width: max-content;
+ 
+    
+   
+    animation: slide-left 0.15s ease-in-out;
+    animation-fill-mode: forwards;
+    opacity: 1;}
+.fade-enter  {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.fade-enter-active  {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-exit  {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.fade-exit-active  {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.fade-enter-active ,
+.fade-exit-active  {
+  transition: opacity 500ms, transform 500ms;
+}
