@@ -1,0 +1,16 @@
+.page-container {
+  background-color: #894545; /* Replace with your desired background color */
+  min-height: 100%;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.page-container1 {
+  background-color: white; /* Replace with your desired background color */
+  min-height: 100%;
+}
+
+

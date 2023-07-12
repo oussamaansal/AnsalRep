@@ -1,0 +1,80 @@
+/* navbar.css */
+.navbar {
+  height: 100px; /* Adjust the height as per your requirement */
+  display: flex;
+  align-items: center;
+}
+/* For buttons within the Navbar */
+.navbar .btn:focus,
+.navbar .btn:active,
+.navbar .btn:active:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.logo {
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.nav-links {
+  margin-right: 10px;
+}
+
+.nav-link,
+.Sol {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav-link:hover {
+  color: red;
+}
+.buttonC {
+  margin-right: 10px; /* Adjust the margin as per your requirement */
+  border-radius: 50px !important;
+  background-color: #f20d19;
+  border-color: transparent !important;
+}
+.buttonD {
+  /* Adjust the margin as per your requirement */
+  border-radius: 50px !important;
+  background-color: white;
+  color: #f20d19 !important;
+  margin-right: 150px;
+  border-color: transparent !important;
+}
+.buttonD:hover {
+  background-color: #f20d19;
+  color: white !important;
+}
+.buttonC:hover {
+  background-color: white;
+  color: #f20d19 !important;
+}
+/* navbar.css */
+
+.menu .submenu-link {
+  color: black !important
+  ;
+}
+
+/* navbar.css */
+
+/* navbar.css */
+
+.menu
+ {
+  margin-top: 0;
+
+  border-radius: 0;
+  height: 140px;
+}
+.submenu {
+  left: 100% !important;
+  top: 0 !important;
+  border-radius: 0;
+  height: 140px;
+}
